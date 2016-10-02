@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace tests;
 
 class SlugTest extends \PHPUnit_Framework_TestCase
 {
@@ -11,7 +11,7 @@ class SlugTest extends \PHPUnit_Framework_TestCase
      */
     public function testExample($source, $expected)
     {
-        $this->assertEquals($expected, \pldin601\Slugrus\slugify($source));
+        $this->assertEquals($expected, \Nerd\Sluggy\slugify($source));
     }
 
     public function dataProvider()

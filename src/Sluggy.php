@@ -1,7 +1,11 @@
 <?php
 
-namespace pldin601\Slugrus;
+namespace Nerd\Sluggy;
 
+/**
+ * @param string $text
+ * @return string
+ */
 function slugify($text)
 {
     $translation = [
@@ -17,7 +21,7 @@ function slugify($text)
     $text = trim($text);
     $text = mb_convert_case($text, MB_CASE_LOWER);
     $text = strtr($text, $translation);
-    $text = preg_replace('~(\W+)~', '-', $text);
+    $text = preg_replace('~(\W+)~u', '-', $text);
     $text = trim($text, '-');
 
     return $text;
