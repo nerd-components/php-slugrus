@@ -1,8 +1,6 @@
-# Slugrus
-[![Build Status](https://travis-ci.org/pldin601/php-slugrus.svg?branch=master)](https://travis-ci.org/pldin601/php-slugrus)
-[![Code Climate](https://codeclimate.com/github/pldin601/php-slugrus/badges/gpa.svg)](https://codeclimate.com/github/pldin601/php-slugrus)
-[![Test Coverage](https://codeclimate.com/github/pldin601/php-slugrus/badges/coverage.svg)](https://codeclimate.com/github/pldin601/php-slugrus/coverage)
-[![Issue Count](https://codeclimate.com/github/pldin601/php-slugrus/badges/issue_count.svg)](https://codeclimate.com/github/pldin601/php-slugrus)
+# Sluggy
+[![Build Status](https://travis-ci.org/nerd-components/sluggy.svg?branch=master)](https://travis-ci.org/nerd-components/sluggy)
+[![Coverage Status](https://coveralls.io/repos/github/nerd-components/sluggy/badge.svg?branch=master)](https://coveralls.io/github/nerd-components/sluggy?branch=master)
+[![StyleCI](https://styleci.io/repos/69814637/shield?branch=master)](https://styleci.io/repos/69814637)
 
-Cyrillic Slug Generator
-
+Cyrillic slug generator
