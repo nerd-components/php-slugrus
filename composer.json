@@ -19,7 +19,10 @@
   },
   "autoload": {
     "files": [
-      "src/Sluggy.php"
+      "src/Sluggy.php",
+
+      "src/Tables/Common.php",
+      "src/Tables/Cyrillic.php"
     ]
   }
 }
